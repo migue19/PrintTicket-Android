@@ -53,11 +53,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
                     android:text="Limitado" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="$216.0" />
+                    android:layout_marginHorizontal="8dp"
+                    android:text="$216.00" />
             </LinearLayout>
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="wrap_content"
@@ -67,11 +69,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
                     android:text="Limitado" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="$256.0" />
+                    android:layout_marginHorizontal="8dp"
+                    android:text="$349.00" />
             </LinearLayout>
         </LinearLayout>
 
@@ -97,11 +101,13 @@
                 <TextView android:id="@+id/text4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
                     android:text="Limitado" />
                 <TextView android:id="@+id/text5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="$216.0" />
+                    android:layout_marginHorizontal="8dp"
+                    android:text="$54.00" />
             </LinearLayout>
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="wrap_content"
@@ -111,13 +117,39 @@
                 <TextView android:id="@+id/text6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
                     android:text="Limitado" />
                 <TextView android:id="@+id/text7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="$256.0" />
+                    android:layout_marginHorizontal="8dp"
+                    android:text="$75.00" />
             </LinearLayout>
         </LinearLayout>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="conectar"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:text="imprimir"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="escanear"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Version: 0.0.1(1)" />
 
     </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
